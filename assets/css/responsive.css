@@ -92,6 +92,46 @@
 	.header-menu__link:hover {
 		background: #00ffff37;
 	}
+
+	/* khoi hero */
+	.hero {
+		flex-direction: column;
+		row-gap: 50px;
+	}
+
+	.hero-media {
+		order: 1;
+	}
+
+	.hero-content {
+		order: 2;
+		width: 80%;
+		text-align: center;
+		margin: 22px auto;
+	}
+
+	.hero-content__cta {
+		justify-content: center;
+	}
+
+	/* khối service */
+	.service-row {
+		flex-direction: column;
+		row-gap: 20px;
+	}
+
+	.service-row__img {
+		width: 100%;
+	}
+
+	.service-row__item {
+		width: 90%;
+		text-align: start;
+	}
+
+	.service-row__list {
+		text-align: center;
+	}
 }
 
 /* Tablet */
@@ -103,8 +143,7 @@
 }
 
 /* tạm ẩn phần không liên quan */
-.hero,
-.footer,
-main {
+
+.footer {
 	display: none;
 }
