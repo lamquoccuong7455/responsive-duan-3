@@ -132,6 +132,37 @@
 	.service-row__list {
 		text-align: center;
 	}
+
+	/* work list */
+	.work-list {
+		grid-template-columns: 1fr;
+		row-gap: 30px;
+	}
+
+	/* about */
+	.about-body {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	.about-media__img--small {
+		display: none;
+	}
+
+	.about-media {
+		width: 100%;
+		padding-bottom: 25px;
+	}
+
+	.about-media__img--big {
+		width: 100%;
+		border-radius: 15px;
+	}
+
+	.about-content {
+		width: 90%;
+		text-align: center;
+	}
 }
 
 /* Tablet */
