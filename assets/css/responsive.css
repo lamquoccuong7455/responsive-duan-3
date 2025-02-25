@@ -182,18 +182,38 @@
 	.cta-content {
 		margin: auto;
 	}
+
+	/* blog */
+	.blog-inner {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	.blog-list {
+		order: 1;
+	}
+
+	.blog-content {
+		width: 90%;
+		order: 2;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 991.98px) {
+	/* footer */
+	.footer-hidden__tablet {
+		display: none;
+	}
+
+	.footer-top {
+		grid-template-columns: 0.5fr 0.5fr 1fr;
+	}
 }
 
 /* Mobile */
 @media (max-width: 767.98px) {
-}
-
-/* tạm ẩn phần không liên quan */
-
-.footer {
-	display: none;
 }
