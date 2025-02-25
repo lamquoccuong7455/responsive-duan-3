@@ -163,6 +163,25 @@
 		width: 90%;
 		text-align: center;
 	}
+
+	/* team */
+	.team-list {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 30px;
+	}
+
+	/* cta */
+	.cta-inner {
+		flex-direction: column;
+	}
+
+	.cta-media__img {
+		display: none;
+	}
+
+	.cta-content {
+		margin: auto;
+	}
 }
 
 /* Tablet */
