@@ -212,8 +212,158 @@
 	.footer-top {
 		grid-template-columns: 0.5fr 0.5fr 1fr;
 	}
+
+	.show-on-mobile {
+		display: none;
+	}
 }
 
 /* Mobile */
 @media (max-width: 767.98px) {
+	/* menu */
+	.header-cta {
+		display: none;
+	}
+
+	.menu-header__icon {
+		top: 16px;
+	}
+
+	.menu-drawer {
+		inset: 0 20% 0 0;
+		padding: 40px;
+	}
+
+	.header-menu__item {
+		list-style: none;
+		margin-top: 10px;
+	}
+
+	/* gạch ngang */
+	.separate {
+		border-top: 1px solid #8c8b8b;
+		margin-top: 10px;
+	}
+
+	/* hero */
+	.hero-media__img--small {
+		display: none;
+	}
+
+	.hero-media__img--big {
+		width: 100%;
+		height: auto;
+	}
+
+	.hero-content__heading {
+		font-size: 3rem;
+	}
+
+	.hero-content__cta {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	.hero-content__call {
+		margin: 0;
+	}
+
+	/* services */
+	.services {
+		margin: 0;
+	}
+
+	.service-top__desc {
+		width: 100%;
+	}
+
+	.service-row__img {
+		height: auto;
+	}
+
+	/* work */
+	.work {
+		margin: 0;
+	}
+
+	.work-top {
+		text-align: center;
+	}
+
+	.work-top__desc {
+		width: 100%;
+	}
+
+	.work-item {
+		padding: 20px;
+	}
+
+	/* about */
+	.about {
+		margin: 0;
+		padding: 30px 0;
+	}
+
+	.about-content__heading {
+		font-size: 3rem;
+	}
+
+	/* team */
+	.team-list {
+		grid-template-columns: 1fr;
+	}
+
+	/* cta */
+	.cta {
+		margin: 20px 0;
+	}
+
+	.cta-inner {
+		padding: 20px 10px;
+		height: auto;
+	}
+
+	.cta-content__heading {
+		font-size: 3rem;
+		width: 100%;
+	}
+
+	.cta-content__desc {
+		font-size: 1.3rem;
+	}
+
+	/* blog */
+	.blog-list {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	.blog-content__heading {
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	/* welcome */
+	.welcome-inner {
+		margin: 0;
+		padding: 30px 5px;
+	}
+
+	.welcome-inner__heading {
+		font-size: 3rem;
+	}
+
+	.welcome-inner__desc {
+		width: 100%;
+	}
+
+	/* footer */
+	.footer-top {
+		grid-template-columns: 1fr;
+		row-gap: 30px;
+	}
+
+	.copyright {
+		margin-top: 20px;
+	}
 }

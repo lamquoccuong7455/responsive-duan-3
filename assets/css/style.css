@@ -464,6 +464,7 @@ a {
 .team-item__img {
 	display: block;
 	height: 290px;
+	width: auto;
 	object-fit: cover;
 	/* position: absolute; */
 
